@@ -12,7 +12,7 @@ Bu proje, **Bootstrap 5** kütüphanesi kullanılarak geliştirilmiş, tamamen *
 
 ## 🖼️ Ekran Görüntüsü
 
-> `screen-sh.png`
+[screen-sh.png]
 
 ## 🛠️ Kullanılan Teknolojiler
 
