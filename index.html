@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap-css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>User Work Performance</title>
+</head>
+
+<body class="d-flex justify-content-center align-items-center p-4">
+
+    <main class="main-bar d-flex justify-content-start align-items-center flex-column gap-3 w-100">
+        
+        <!-- ----  User Information  ---- -->
+
+        <section class="top-item w-100 rounded-5 px-3 py-3 d-flex flex-column justify-content-start gap-4">
+
+            <!-- ---- Top Item Nav Bar  ---- -->
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand d-flex" href="#">
+                        <img src="image/rectangle-icon.png" alt="Logo" width="5" height="30"
+                            class="d-inline-block align-text-top">
+                        <p class="text-white m-0 ms-2">Detail Employee</p>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+
+                        <div class="d-flex justify-content-center mt-3 mt-lg-0">
+
+                            <div class="dropdown">
+                                <button class="btn text-white dropdown-toggle border" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    This Year
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">2024</a></li>
+                                    <li><a class="dropdown-item" href="#">2023</a></li>
+                                    <li><a class="dropdown-item" href="#">2022</a></li>
+                                </ul>
+                            </div>
+
+                            <button type="button" class="btn d-flex ms-2"
+                                style="background-color: var(--button-color);">
+                                <img class="d-none d-sm-block" src="image/download-regular-240.png"
+                                    style="width: 24px; height: 24px;" alt="">
+                                <p class="m-0 ms-sm-1 text-black">Download Info</p>
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+
+            <!-- ---- Top Item User Information Card  ---- -->
+
+            <div class="px-2 d-flex flex-column flex-md-row w-100 align-items-center mt-2">
+
+                <div class="border p-1 rounded-pill">
+                    <img src="image/profile-photo.png" style="width: 100px;" alt="">
+                </div>
+
+                <div class="ms-md-5 w-100 d-flex flex-column">
+                    <div>
+                        <p class="mt-3 mt-md-0 text-white fs-5 text-center text-md-start">Natashia Khaleira</p>
+                    </div>
+                    <div class="d-flex flex-column flex-sm-row align-items-center justify-content-center w-100">
+                        <div class="w-100">
+                            <p class="m-0 mt-2 mt-md-0 text-center text-sm-start" style="color: #7a7a7a;">Role</p>
+                            <p class="m-0 text-white text-center text-sm-start">Fronted Developer</p>
+                        </div>
+                        <div class="ms-sm-4 ms-lg-5 w-100">
+                            <p class="m-0 mt-3 mt-md-0 text-center text-sm-start" style="white-space: nowrap; color: #7a7a7a;">Phone Number</p>
+                            <p class="m-0 text-white text-center text-sm-start" style="white-space: nowrap;">+1 234 567 890</p>
+                        </div>
+                        <div class="ms-sm-4 ms-lg-5 w-100">
+                            <p class="m-0 mt-3 mt-md-0 text-center text-sm-start" style="color: #7a7a7a;">Email Adress</p>
+                            <p class="m-0 text-white text-center text-sm-start">natashiakhaleria11@example.com</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- ---- Top Item User Total Activity Card  ---- -->
+
+            <div class="container-fluid my-3">
+
+                <div class="row g-3">
+
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="p-3 d-flex rounded-5 align-items-center justify-content-evenly" style="background-color: var(--card-color);">
+
+                        <div class="p-2 rounded-pill" style="background-color: #404042;">
+                            <img src="image/calendar-check-regular-240.png" style="width: 24px; height: 24px;" alt="">
+                        </div>
+                        
+                        <div class="ms-2">
+                            <p class="m-0 text-white">309</p>
+                            <p class="m-0" style="font-size: 12px; color: #7a7a7a;">Total Attendance</p>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="p-3 d-flex rounded-5 align-items-center justify-content-evenly" style="background-color: var(--card-color);">
+
+                        <div class="p-2 rounded-pill" style="background-color: #404042;">
+                            <img src="image/log-in-regular-240.png" style="width: 24px; height: 24px;" alt="">
+                        </div>
+                        
+                        <div class="ms-2">
+                            <p class="m-0 text-white">08:46</p>
+                            <p class="m-0" style="font-size: 12px; color: #7a7a7a;">Avg Check In Time</p>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="p-3 d-flex rounded-5 align-items-center justify-content-evenly" style="background-color: var(--card-color);">
+
+                        <div class="p-2 rounded-pill" style="background-color: #404042;">
+                            <img src="image/log-out-regular-240.png" style="width: 24px; height: 24px;" alt="">
+                        </div>
+                        
+                        <div class="ms-2">
+                            <p class="m-0 text-white">17:04</p>
+                            <p class="m-0" style="font-size: 12px; color: #7a7a7a;">Avg Check Out Time</p>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="p-3 d-flex rounded-5 align-items-center justify-content-evenly" style="background-color: var(--card-color);">
+
+                        <div class="p-2 rounded-pill" style="background-color: #404042;">
+                            <img src="image/award-solid-240.png" style="width: 24px; height: 24px;" alt="">
+                        </div>
+                        
+                        <div class="ms-2">
+                            <p class="m-0 text-white">Role Model</p>
+                            <p class="m-0" style="font-size: 12px; color: #7a7a7a;">Employee Predicate</p>
+                        </div>
+                    </div>
+                  </div>
+                  
+                </div>
+
+              </div>
+
+        </section>
+
+         <!-- ----  User Working Hours  ---- -->
+
+        <section class="bottom-item w-100 rounded-5 px-3 py-3 flex-column d-flex">
+
+            <!-- ---- Bottom Item Nav Bar  ---- -->
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand d-flex" href="#">
+                        <img src="image/rectangle-icon.png" alt="Logo" width="5" height="30"
+                            class="d-inline-block align-text-top">
+                        <p class="text-white m-0 ms-2">Attendance History</p>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-end w-100" id="navbarSupportedContent">
+
+                        <div class="d-flex justify-content-center mt-3 mt-lg-0">
+
+                            <button type="button" class="btn d-flex ms-0 ms-xl-2 border">
+                                <img src="image/dashboard-solid-240 (1).png"
+                                    style="width: 24px; height: 24px;" alt="">
+                            </button>
+
+                            <button type="button" class="btn d-flex ms-2 border">
+                                <img src="image/menu-regular-240.png"
+                                    style="width: 24px; height: 24px;" alt="">
+                            </button>
+
+                            <button type="button" class="btn d-flex ms-2 border">
+                                <img src="image/sort-regular-240.png"
+                                    style="width: 24px; height: 24px;" alt="">
+                                <p class="m-0 ms-sm-1 text-white">Sort</p>
+                            </button>
+
+                            <button type="button" class="btn d-flex ms-2 border">
+                                <img src="image/filter-alt-regular-240.png"
+                                    style="width: 24px; height: 24px;" alt="">
+                                <p class="m-0 ms-sm-1 text-white">Filter</p>
+                            </button>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+
+            <!-- ---- Bottom Item Working Day Card Slider  ---- -->
+
+            <div id="carouselExampleIndicators" class="carousel slide">
+
+                <div class="carousel-indicators" style="bottom: -25px;" >
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+
+                <div class="carousel-inner">
+
+                  <div class="carousel-item active">
+                    <!-- ---- Bottom Card Slider 1  ---- -->
+                    <div class="container-fluid mb-4">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3 mt-1">
+                          <div class="col">
+                            <div class="px-sm-2 px-3 px-lg-3 py-4 rounded-5" style="background-color: var(--card-color);">
+
+                                <div class="d-flex align-items-center justify-content-between mb-3">
+                                    <div class="d-flex gap-2">
+                                        <img src="image/time-five-regular-240.png" style="width: 24px;" alt="">
+                                        <p class="m-0 text-white" style="font-size: 14px;">March 08 2023</p>
+                                      </div>
+                                      <div class="p-1 px-2 rounded-pill" style="background-color: #2D3D3C;">
+                                        <p class="m-0" style="font-size: 14px; color: var(--button-color);" >On Time</p>
+                                      </div>
+                                </div>
+
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check In Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">08:53</p>
+                                    </div>
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check Out Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">17:15</p>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="px-sm-2 px-3 px-lg-3 py-4 rounded-5" style="background-color: var(--card-color);">
+
+                                <div class="d-flex align-items-center justify-content-between mb-3">
+                                    <div class="d-flex gap-2">
+                                        <img src="image/time-five-regular-240.png" style="width: 24px;" alt="">
+                                        <p class="m-0 text-white" style="font-size: 14px;">March 07 2023</p>
+                                      </div>
+                                      <div class="p-1 px-2 rounded-pill" style="background-color: #3F3D31;">
+                                        <p class="m-0" style="font-size: 14px; color: #F3ECB8" >Late</p>
+                                      </div>
+                                </div>
+
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check In Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">08:27</p>
+                                    </div>
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check Out Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">17:09</p>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class=" px-sm-2 px-3 px-lg-3 py-4 rounded-5" style="background-color: var(--card-color);">
+
+                                <div class="d-flex align-items-center justify-content-between mb-3">
+                                    <div class="d-flex gap-2">
+                                        <img src="image/time-five-regular-240.png" style="width: 24px;" alt="">
+                                        <p class="m-0 text-white" style="font-size: 14px;">March 06 2023</p>
+                                      </div>
+                                      <div class="p-1 px-2 rounded-pill" style="background-color: #3A3A3C;">
+                                        <p class="m-0" style="font-size: 14px; color: grey;" >Absent</p>
+                                      </div>
+                                </div>
+
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check In Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">--:--</p>
+                                    </div>
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check Out Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">--:--</p>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class=" px-sm-2 px-3 px-lg-3 py-4 rounded-5" style="background-color: var(--card-color);">
+
+                                <div class="d-flex align-items-center justify-content-between mb-3">
+                                    <div class="d-flex gap-2">
+                                        <img src="image/time-five-regular-240.png" style="width: 24px;" alt="">
+                                        <p class="m-0 text-white" style="font-size: 14px;">March 05 2023</p>
+                                      </div>
+                                      <div class="p-1 px-2 rounded-pill" style="background-color: #2D3D3C;">
+                                        <p class="m-0" style="font-size: 14px; color: var(--button-color);" >On Time</p>
+                                      </div>
+                                </div>
+
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check In Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">08:55</p>
+                                    </div>
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check Out Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">17:10</p>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="px-sm-2 px-3 px-lg-3 py-4 rounded-5" style="background-color: var(--card-color);">
+
+                                <div class="d-flex align-items-center justify-content-between mb-3">
+                                    <div class="d-flex gap-2">
+                                        <img src="image/time-five-regular-240.png" style="width: 24px;" alt="">
+                                        <p class="m-0 text-white" style="font-size: 14px;">March 04 2023</p>
+                                      </div>
+                                      <div class="p-1 px-2 rounded-pill" style="background-color: #2D3D3C;">
+                                        <p class="m-0" style="font-size: 14px; color: var(--button-color);" >On Time</p>
+                                      </div>
+                                </div>
+
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check In Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">08:58</p>
+                                    </div>
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check Out Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">17:06</p>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="px-sm-2 px-3 px-lg-3 py-4 rounded-5" style="background-color: var(--card-color);">
+
+                                <div class="d-flex align-items-center justify-content-between mb-3">
+                                    <div class="d-flex gap-2">
+                                        <img src="image/time-five-regular-240.png" style="width: 24px;" alt="">
+                                        <p class="m-0 text-white" style="font-size: 14px;">March 03 2023</p>
+                                      </div>
+                                      <div class="p-1 px-2 rounded-pill" style="background-color: #3F3D31;">
+                                        <p class="m-0" style="font-size: 14px; color: #F3ECB8" >Late</p>
+                                      </div>
+                                </div>
+
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check In Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">08:40</p>
+                                    </div>
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check Out Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">17:02</p>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <!-- ---- Bottom Card Slider 1  ---- -->
+                    <div class="container-fluid mb-4">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3 mt-1">
+                          <div class="col">
+                            <div class="px-sm-2 px-3 px-lg-3 py-4 rounded-5" style="background-color: var(--card-color);">
+
+                                <div class="d-flex align-items-center justify-content-between mb-3">
+                                    <div class="d-flex gap-2">
+                                        <img src="image/time-five-regular-240.png" style="width: 24px;" alt="">
+                                        <p class="m-0 text-white" style="font-size: 14px;">March 08 2023</p>
+                                      </div>
+                                      <div class="p-1 px-2 rounded-pill" style="background-color: #2D3D3C;">
+                                        <p class="m-0" style="font-size: 14px; color: var(--button-color);" >On Time</p>
+                                      </div>
+                                </div>
+
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check In Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">08:53</p>
+                                    </div>
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check Out Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">17:15</p>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="px-sm-2 px-3 px-lg-3 py-4 rounded-5" style="background-color: var(--card-color);">
+
+                                <div class="d-flex align-items-center justify-content-between mb-3">
+                                    <div class="d-flex gap-2">
+                                        <img src="image/time-five-regular-240.png" style="width: 24px;" alt="">
+                                        <p class="m-0 text-white" style="font-size: 14px;">March 07 2023</p>
+                                      </div>
+                                      <div class="p-1 px-2 rounded-pill" style="background-color: #3F3D31;">
+                                        <p class="m-0" style="font-size: 14px; color: #F3ECB8" >Late</p>
+                                      </div>
+                                </div>
+
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check In Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">08:27</p>
+                                    </div>
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check Out Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">17:09</p>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class=" px-sm-2 px-3 px-lg-3 py-4 rounded-5" style="background-color: var(--card-color);">
+
+                                <div class="d-flex align-items-center justify-content-between mb-3">
+                                    <div class="d-flex gap-2">
+                                        <img src="image/time-five-regular-240.png" style="width: 24px;" alt="">
+                                        <p class="m-0 text-white" style="font-size: 14px;">March 06 2023</p>
+                                      </div>
+                                      <div class="p-1 px-2 rounded-pill" style="background-color: #3A3A3C;">
+                                        <p class="m-0" style="font-size: 14px; color: grey;" >Absent</p>
+                                      </div>
+                                </div>
+
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check In Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">--:--</p>
+                                    </div>
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check Out Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">--:--</p>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class=" px-sm-2 px-3 px-lg-3 py-4 rounded-5" style="background-color: var(--card-color);">
+
+                                <div class="d-flex align-items-center justify-content-between mb-3">
+                                    <div class="d-flex gap-2">
+                                        <img src="image/time-five-regular-240.png" style="width: 24px;" alt="">
+                                        <p class="m-0 text-white" style="font-size: 14px;">March 05 2023</p>
+                                      </div>
+                                      <div class="p-1 px-2 rounded-pill" style="background-color: #2D3D3C;">
+                                        <p class="m-0" style="font-size: 14px; color: var(--button-color);" >On Time</p>
+                                      </div>
+                                </div>
+
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check In Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">08:55</p>
+                                    </div>
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check Out Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">17:10</p>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="px-sm-2 px-3 px-lg-3 py-4 rounded-5" style="background-color: var(--card-color);">
+
+                                <div class="d-flex align-items-center justify-content-between mb-3">
+                                    <div class="d-flex gap-2">
+                                        <img src="image/time-five-regular-240.png" style="width: 24px;" alt="">
+                                        <p class="m-0 text-white" style="font-size: 14px;">March 04 2023</p>
+                                      </div>
+                                      <div class="p-1 px-2 rounded-pill" style="background-color: #2D3D3C;">
+                                        <p class="m-0" style="font-size: 14px; color: var(--button-color);" >On Time</p>
+                                      </div>
+                                </div>
+
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check In Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">08:58</p>
+                                    </div>
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check Out Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">17:06</p>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="px-sm-2 px-3 px-lg-3 py-4 rounded-5" style="background-color: var(--card-color);">
+
+                                <div class="d-flex align-items-center justify-content-between mb-3">
+                                    <div class="d-flex gap-2">
+                                        <img src="image/time-five-regular-240.png" style="width: 24px;" alt="">
+                                        <p class="m-0 text-white" style="font-size: 14px;">March 03 2023</p>
+                                      </div>
+                                      <div class="p-1 px-2 rounded-pill" style="background-color: #3F3D31;">
+                                        <p class="m-0" style="font-size: 14px; color: #F3ECB8" >Late</p>
+                                      </div>
+                                </div>
+
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check In Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">08:40</p>
+                                    </div>
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check Out Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">17:02</p>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <!-- ---- Bottom Card Slider 1  ---- -->
+                    <div class="container-fluid mb-4">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3 mt-1">
+                          <div class="col">
+                            <div class="px-sm-2 px-3 px-lg-3 py-4 rounded-5" style="background-color: var(--card-color);">
+
+                                <div class="d-flex align-items-center justify-content-between mb-3">
+                                    <div class="d-flex gap-2">
+                                        <img src="image/time-five-regular-240.png" style="width: 24px;" alt="">
+                                        <p class="m-0 text-white" style="font-size: 14px;">March 08 2023</p>
+                                      </div>
+                                      <div class="p-1 px-2 rounded-pill" style="background-color: #2D3D3C;">
+                                        <p class="m-0" style="font-size: 14px; color: var(--button-color);" >On Time</p>
+                                      </div>
+                                </div>
+
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check In Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">08:53</p>
+                                    </div>
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check Out Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">17:15</p>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="px-sm-2 px-3 px-lg-3 py-4 rounded-5" style="background-color: var(--card-color);">
+
+                                <div class="d-flex align-items-center justify-content-between mb-3">
+                                    <div class="d-flex gap-2">
+                                        <img src="image/time-five-regular-240.png" style="width: 24px;" alt="">
+                                        <p class="m-0 text-white" style="font-size: 14px;">March 07 2023</p>
+                                      </div>
+                                      <div class="p-1 px-2 rounded-pill" style="background-color: #3F3D31;">
+                                        <p class="m-0" style="font-size: 14px; color: #F3ECB8" >Late</p>
+                                      </div>
+                                </div>
+
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check In Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">08:27</p>
+                                    </div>
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check Out Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">17:09</p>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class=" px-sm-2 px-3 px-lg-3 py-4 rounded-5" style="background-color: var(--card-color);">
+
+                                <div class="d-flex align-items-center justify-content-between mb-3">
+                                    <div class="d-flex gap-2">
+                                        <img src="image/time-five-regular-240.png" style="width: 24px;" alt="">
+                                        <p class="m-0 text-white" style="font-size: 14px;">March 06 2023</p>
+                                      </div>
+                                      <div class="p-1 px-2 rounded-pill" style="background-color: #3A3A3C;">
+                                        <p class="m-0" style="font-size: 14px; color: grey;" >Absent</p>
+                                      </div>
+                                </div>
+
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check In Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">--:--</p>
+                                    </div>
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check Out Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">--:--</p>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class=" px-sm-2 px-3 px-lg-3 py-4 rounded-5" style="background-color: var(--card-color);">
+
+                                <div class="d-flex align-items-center justify-content-between mb-3">
+                                    <div class="d-flex gap-2">
+                                        <img src="image/time-five-regular-240.png" style="width: 24px;" alt="">
+                                        <p class="m-0 text-white" style="font-size: 14px;">March 05 2023</p>
+                                      </div>
+                                      <div class="p-1 px-2 rounded-pill" style="background-color: #2D3D3C;">
+                                        <p class="m-0" style="font-size: 14px; color: var(--button-color);" >On Time</p>
+                                      </div>
+                                </div>
+
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check In Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">08:55</p>
+                                    </div>
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check Out Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">17:10</p>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="px-sm-2 px-3 px-lg-3 py-4 rounded-5" style="background-color: var(--card-color);">
+
+                                <div class="d-flex align-items-center justify-content-between mb-3">
+                                    <div class="d-flex gap-2">
+                                        <img src="image/time-five-regular-240.png" style="width: 24px;" alt="">
+                                        <p class="m-0 text-white" style="font-size: 14px;">March 04 2023</p>
+                                      </div>
+                                      <div class="p-1 px-2 rounded-pill" style="background-color: #2D3D3C;">
+                                        <p class="m-0" style="font-size: 14px; color: var(--button-color);" >On Time</p>
+                                      </div>
+                                </div>
+
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check In Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">08:58</p>
+                                    </div>
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check Out Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">17:06</p>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="px-sm-2 px-3 px-lg-3 py-4 rounded-5" style="background-color: var(--card-color);">
+
+                                <div class="d-flex align-items-center justify-content-between mb-3">
+                                    <div class="d-flex gap-2">
+                                        <img src="image/time-five-regular-240.png" style="width: 24px;" alt="">
+                                        <p class="m-0 text-white" style="font-size: 14px;">March 03 2023</p>
+                                      </div>
+                                      <div class="p-1 px-2 rounded-pill" style="background-color: #3F3D31;">
+                                        <p class="m-0" style="font-size: 14px; color: #F3ECB8" >Late</p>
+                                      </div>
+                                </div>
+
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check In Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">08:40</p>
+                                    </div>
+                                    <div>
+                                        <p class="m-0 text-white" style="font-size: 14px;">Check Out Time</p>
+                                        <p class="m-0 text-white" style="font-size: 14px;">17:02</p>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+
+                </div>
+                
+              </div>
+
+        </section>
+
+    </main>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

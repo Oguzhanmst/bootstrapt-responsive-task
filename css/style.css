@@ -1,0 +1,30 @@
+:root{
+
+    --background-color: #131315;
+    --card-color: #2A2A2C;
+    --button-color: #4EFFC9;
+    --body-background-color: #484C57;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    height: 100vh;
+    background-color: var(--body-background-color) ;
+}
+
+.main-bar{
+    max-width: 1440px;
+    height: 95vh;
+}
+
+.top-item, .bottom-item{
+    
+    background-color: var(--background-color);
+}
+
